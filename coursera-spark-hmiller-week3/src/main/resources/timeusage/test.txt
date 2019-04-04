@@ -1,0 +1,15 @@
+[Test Description] classifiedColumns (hard -- random)
+[Observed Error] Se
+(t0796, t1897, t14443, t0744, t06247, t18394, t13585, t14898, t06786, t12718, t09115, t13503, t06504, t18969, t18695, t15912, t07318, t18718, t12642, t08397, t08115, t07466, t06827, t06268, t08756, t14792, t10419, t1447, t04617, t09145, t08570, t14421, t15473, t04801, t18552, t0667, t13360, t08255, t12125, t14508, t18617, t07197, t08835, t13979, t07126, t12136, t0410, t06559, t12820, t14174, t09750, t10402, t15478, t18269, t07637, t09767, t09535, t12256, t12419, t06335, t14127, t06655, t09877, t12449, t12613, t13343)
+did not equal Set
+(t0796, t1897, t14443, t02981, t02634, t0744, t06247, t18394, t13585, t14898, t06786, t12718, t09115, t13503, t02414, t06504, t18969, t18695, t15912, t07318, t18718, t12642, t08397, t08115, t07466, t02766, t06827, t06268, t08756, t14792, t10419, t1447, t04617, t09145, t08570, t14421, t15473, t04801, t18552, t0667, t13360, t08255, t12125, t14508, t18617, t07197, t08835, t13979, t07126, t12136, t0410, t06559, t12820, t14174, t09750, t10402, t15478, t18269, t07637, t09767, t09535, t12256, t12419, t06335, t14127, t06655, t09877, t12449, t12613, t13343)
+[Lost Points] 8
+
+[Test Description] timeUsageGrouped && timeUsageGroupedSql && timeUsageGroupedTyped
+[Observed Error] cannot resolve '`working`' given input columns: [key, avg(primaryNeeds), avg(sex), avg(age)];
+[exception was thrown] detailed error message in debug output section below
+[Lost Points] 10
+
+[Test Description] classifiedColumns
+[Observed Error] Set(t180201, t0601) did not equal Set(t0201, t0601, t180201)
+[Lost Points] 5
