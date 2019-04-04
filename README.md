@@ -8,9 +8,8 @@ KMeans Clustering.
 
 Unit Tests using FunSuite.
 
-Compare efficienty of Operations such as groupByKey vs. reduceByKey
+Compare efficienty of Operations such as groupByKey vs. reduceByKey.
 
-DataSets Typed Operations
+DataSets Typed Operations.
 
-DataFrames Untyped Operations
-
+DataFrames Untyped Operations.
