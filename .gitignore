@@ -1,6 +1,8 @@
 *.class
 *.log
 
+# Source: https://alvinalexander.com/source-code/scala/sample-gitignore-file-scala-sbt-intellij-eclipse
+
 # sbt
 # (may want to keep parts of 'project')
 bin/
@@ -14,3 +16,6 @@ build/
 *.ipr
 *.iws
 .idea
+
+# Mac specific
+.DS_Store
